@@ -1,4 +1,4 @@
-# Ultrasonic-Sensor-with-Arduino-LCD-Project-for-Measuring-Distance
+# Ultrasonic Sensor with Arduino LCD Project for Measuring Distance
 
 ## Hardware components:
   1. HC-SR04 sensor

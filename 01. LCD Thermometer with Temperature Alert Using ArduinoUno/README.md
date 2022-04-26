@@ -1,4 +1,4 @@
-# LCD-Thermometer-with-temperature-alert-using-Arduino-Uno
+# LCD Thermometer with Temperature Alert Using ArduinoUno
 
 ## Hardware components:
   1. Temperature Sensor
