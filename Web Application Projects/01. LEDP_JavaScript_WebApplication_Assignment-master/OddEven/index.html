@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Define Language -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Odd/Even Checker</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+	
+	<style>
+		a:link{
+			color: #ffffff;
+		}
+
+		a:hover{
+			color: cyan;
+		}
+
+		a:visited{
+			color: lightblue;
+		}
+
+		#toopbar{
+		    width: 100%;
+		    height: 140px;
+		    background-color: gray;
+		    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
+		    
+		}
+
+		#ledp{
+		    height: 120px;
+		    margin: 10px;
+		    margin-right: 120px;
+		    float: right;
+		}
+
+		#footbar{
+		    width: 100%;
+		    height: 120px;
+		    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
+		    padding: 10px;
+		}
+
+
+	</style>
+
+
+
+	<script></script>
+
+
+</head>
+<body>
+	<div style="height: 80vh;">
+		<div id="toopbar">
+	    
+		    <h1 style="float: left; margin-left:15%; font-size: 50px; color: #ffffff; margin-top: 2.5% ">Odd/Even Checker</h1>
+		    <img id="ledp" src="../MainPage/img/100967120_1589692037856562_5205586545565761536_n.png" alt="LEDP">
+		</div><br>
+		<div>
+	    	<a href="../MainPage/Our_Service.html"><button type="button" class="btn" style="background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%); color: #ffffff; margin-left: 25px;"> ← Back </button></a>
+	    </div>
+	
+
+	<div style="text-align: center;">
+		<script>
+		var number = prompt("Enter a Number:");
+		var num = number%2;
+			
+			if(num == 0){
+				document.write("<h1>This number is: <br><br> <b>'Even'</b> </h1>");
+			}
+			else if(num == 1){
+				document.write("<h1>This number is: <br><br> <b>'Odd'</b> </h1>");
+			}
+			else{
+				document.write("<h1>Invalid!!! <br><br> <b>Please, Enter a Number</b> </h1>");
+			}
+		</script>
+	</div>
+	</div>
+
+	<div id="footbar">
+	    <div class="row">
+	        <div class="col-8" style="padding-top: 15px;">
+	            <p style="color: #ffffff; ">Trainer: Md. Tasdikul Islam Ony </p>
+	            <p style="color: #ffffff; ">Mobile: 01303264496 </p>
+	        </div>
+	        <div class="col-4" >
+	            <p style="color: #ffffff; ">Name: Sabboshachi Sarkar <br>
+	            Mobile: 01768457598 <br>
+	            Class Name: Web 104 <br>
+	            Batch ID: L4RJWDD104 
+	        </div>
+	    </div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
