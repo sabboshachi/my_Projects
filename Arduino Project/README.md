@@ -3,4 +3,4 @@
 
 <img src="atmega328-pinout.png"
      alt="Markdown Monster icon"
-     style="width:500px;height:600px;"/>
+     style="width:500px;height:450px;"/>
