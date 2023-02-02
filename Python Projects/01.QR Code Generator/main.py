@@ -1,4 +1,4 @@
 import pyqrcode
 data = "sabboshachi.github.io"
 qr = pyqrcode.create(data)
-qr.png("githubID.png", scale=5)
+qr.png("githubID.png", scale=10)
