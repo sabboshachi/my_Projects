@@ -1,4 +1,3 @@
-# Personal Projects (Weekend Experiments)
-
-This repository is dedicated to my experimental mind!
-In this section, I stored all my weekend/vacation experiments in one place. 
+# Projects List
+## [01. QR Code Generator](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/01.QR%20Code%20Generator)
+## [02. Text to Speech Converter](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/02.Text%20to%20Speech%20Converter)
