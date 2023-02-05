@@ -1,6 +1,6 @@
 import random
 
-print("This is a dice stimulator:")
+print("This is a dice stimulator.")
 x = "y"
 while x == "y":
     number = random.randint(1, 6)
