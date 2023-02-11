@@ -1,4 +1,4 @@
-from random import choice
+import matplotlib.pyplot as plt
 class RandomWalk():
     ''' A class to generate random walks'''
 
@@ -16,11 +16,11 @@ class RandomWalk():
         # keep taking steps until the walk reaches the desired length
         while len(self.x_values) < self.num_points:
             # Decide which direction to go and how far to go in that direction.
-            x_direction = choice[1, -1]
+            x_direction = choice([1,-1])
             x_distance = choice([0, 1, 2, 3, 4])
             x_step = x_direction * x_distance
 
-            y_direction = choice[1, -1]
+            y_direction = choice([1,-1])
             y_distance = choice([0, 1, 2, 3, 4])
             y_step = y_direction * y_distance
 
@@ -34,4 +34,7 @@ class RandomWalk():
 
             self.x_values.append(next_x)
             self.y_values.append(next_y)
-
+rw = RandomWalk()
+rw.fill_walk
+plt.scatter(rw.x_values, rw.y_values, s=15)
+plt.show()
