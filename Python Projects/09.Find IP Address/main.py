@@ -1,7 +1,3 @@
-'''
-Python Program to Find IP Address
-'''
-
 # Import the necessary module!
 import socket as s
 
@@ -17,8 +13,9 @@ print("Your Ip Address is: " + my_ip)
 
 # Set the hostname
 host = "github.com"
+
 # Fetch the IP
 ip = s.gethostbyname(host)
 
 # Display the IP
-print("The IP Address of " + host + " is: "  + ip)
+print("The IP Address of " + host + " is: "+ ip)
