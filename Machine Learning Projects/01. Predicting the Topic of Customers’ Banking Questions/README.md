@@ -1,4 +1,5 @@
-# Personal Projects (Weekend Experiments)
+# Predicting the Topic of Customers’ Banking Question
 
-This repository is dedicated to my experimental mind!
-In this section, I stored all my weekend/vacation experiments in one place. 
+## *** Environment Setup ***
+
+1. Install Pandas
