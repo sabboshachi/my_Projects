@@ -2,7 +2,7 @@
 
 <img src="unor3.png"
      alt="Markdown Monster icon"
-     style="width:500px;height:450px;"/>
+     style="width:700px;height:450px;"/>
 
 # ATMEGA328P Pinout
 
