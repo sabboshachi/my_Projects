@@ -1,4 +1,4 @@
-# Multiclass Classification of Sentiment Analysis with Machine Learning
+# Text Classification with NLP and Machine Learning Algorithms
 (Predicting the Topic of Customers’ Banking Question)
 
 ## 1. Introduction
