@@ -1,4 +1,11 @@
-# Personal Projects (Weekend Experiments)
+# Arduino Uno Rev3 Pin Configuration
 
-This repository is dedicated to my experimental mind!
-In this section, I stored all my weekend/vacation experiments in one place. 
+<img src="unor3.png"
+     alt="Markdown Monster icon"
+     style="width:700px;height:450px;"/>
+
+# ATMEGA328P Pinout
+
+<img src="atmega328-pinout.png"
+     alt="Markdown Monster icon"
+     style="width:500px;height:450px;"/>
